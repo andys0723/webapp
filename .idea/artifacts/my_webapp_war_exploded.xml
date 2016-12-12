@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="my-webapp:war exploded">
+    <output-path>$PROJECT_DIR$/target/Spring4MVCHelloWorldRestServiceDemo</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="my-webapp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.fizzed:ch-smpp:5.0.9" />
+          <element id="library" level="project" name="Maven: com.cloudhopper:ch-commons-util:6.0.2" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.9.6" />
+          <element id="library" level="project" name="Maven: com.cloudhopper:ch-commons-charset:3.0.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.13" />
+          <element id="library" level="project" name="Maven: io.netty:netty:3.9.6.Final" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/Spring4MVCHelloWorldRestServiceDemo/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="my-webapp/web/Web" />
+    </root>
+  </artifact>
+</component>
